@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=RTC_INT Pin=IC3-10
+Removed Pin From Net: NetName=LED_RED_EN Pin=IC3-17
+Added Pin To Net: NetName=RTC_INT Pin=IC3-9
+Added Pin To Net: NetName=LED_RED_EN Pin=IC3-10

@@ -1,0 +1,40 @@
+Removed Pin From Net: NetName=BAT_ADC Pin=IC3-4
+Added Component: Designator=R9(RES 0603_1608 RF)
+Add component (AddParameter): Name = "Composition"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device ID"; Value = "RES0003F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay Dale"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "?CRCW0603820KFKEAC?"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.100W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "?541-5568-1-ND?"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "71-CRCW0603820KFKEAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "10MO"; VariantName = "[No Variations]"
+Added Component: Designator=R10(RES 0603_1608 RF)
+Add component (AddParameter): Name = "Composition"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device ID"; Value = "RES0003E"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay Dale"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "?CRCW0603820KFKEAC?"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.100W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "?541-5568-1-ND?"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "71-CRCW0603820KFKEAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "1MO"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R9-2
+Added Pin To Net: NetName=BAT_ADC Pin=R10-1
+Change Net Name : Old Net Name=BAT_ADC New Net Name=V_BAT
+Added Pin To Net: NetName=BAT_ADC Pin=IC3-4
+Added Pin To Net: NetName=BAT_ADC Pin=R9-1
+Added Pin To Net: NetName=BAT_ADC Pin=R10-2
+Added Net: Name=BAT_ADC

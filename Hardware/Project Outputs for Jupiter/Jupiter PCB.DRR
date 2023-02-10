@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Jupiter PCB.PcbDoc   12/18/2022  4:44:50 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer (SIG) to Bottom Layer (SIG)
+ASCII RoundHoles File : Jupiter PCB.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      8mil (0.201mm)                                            Round             173       PTH        0.00inch (0.00mm)
+T2      10mil (0.254mm)                                           Round             16        PTH        0.00inch (0.00mm)
+T3      16mil (0.399mm)                                           Round             2         PTH        0.00inch (0.00mm)
+T4      51mil (1.3mm)                                             Round             2         PTH        0.00inch (0.00mm)
+T5      39mil (0.991mm)                                           Round             3         NPTH       0.00inch (0.00mm)
+T6      93mil (2.36mm)                                            Round             1         NPTH       0.00inch (0.00mm)
+T7      94mil (2.375mm)                                           Round             4         NPTH       0.00inch (0.00mm)
+T8      125mil (3.18mm)                                           Round             2         NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              203
+
+Total Processing Time (hh:mm:ss) : 00:00:00

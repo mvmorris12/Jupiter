@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=GND Pin=C17-1
+Removed Pin From Net: NetName=V_REG_3V Pin=C17-2
+Removed Pin From Net: NetName=GND Pin=C18-1
+Removed Pin From Net: NetName=V_REG_3V Pin=C18-2
+Removed Pin From Net: NetName=GND Pin=IC4-4
+Removed Pin From Net: NetName=V_REG_3V Pin=IC4-8

@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=BAT_ADC Pin=IC3-4
+Removed Pin From Net: NetName=RTC_INT Pin=IC3-7
+Added Pin To Net: NetName=BAT_ADC Pin=IC3-7
+Added Pin To Net: NetName=RTC_INT Pin=IC3-9

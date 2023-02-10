@@ -1,0 +1,42 @@
+Removed Pin From Net: NetName=V_REG_3V Pin=D1-1
+Removed Pin From Net: NetName=LED_RED_CATHODE Pin=R7-1
+Removed Pin From Net: NetName=LED_RED_EN Pin=R7-2
+Added Component: Designator=IC4(NEXPERIA SOT-323)
+Add component (AddParameter): Name = "Current - Continuous Drain (Id) @ 25°C"; Value = "320mA (Ta)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device ID"; Value = "MOS00000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Drain to Source Voltage (Vdss)"; Value = "60V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Drive Voltage (Max Rds On, Min Rds On)"; Value = "10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FET Feature"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FET Type"; Value = "N-Channel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gate Charge (Qg) (Max) @ Vgs"; Value = "0.8 nC @ 4.5 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Input Capacitance (Ciss) (Max) @ Vds"; Value = "50 pF @ 10 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia USA Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "BSS138PW,115"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 150°C (TA)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "IC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation (Max)"; Value = "260mW (Ta), 830mW (Tc)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rds On (Max) @ Id, Vgs"; Value = "1.6Ohm @ 300mA, 10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "1727-1143-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "771-BSS138PW115"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "MOSFET (Metal Oxide)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "NFET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vgs (Max)"; Value = "±20V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vgs(th) (Max) @ Id"; Value = "1.5V @ 250µA"; VariantName = "[No Variations]"
+Added Component: Designator=R12(0603_1608 RF)
+Add component (AddParameter): Name = "Device ID"; Value = "RFP00002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "0603"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=LED_RED_EN Pin=IC4-1
+Added Pin To Net: NetName=GND Pin=IC4-2
+Added Pin To Net: NetName=LED_RED_CATHODE Pin=IC4-3
+Added Pin To Net: NetName=V_REG_3V Pin=R7-1
+Added Pin To Net: NetName=GND Pin=R12-1
+Added Pin To Net: NetName=LED_RED_EN Pin=R12-2
+Added Pin To Net: NetName=LED_RED_ANODE Pin=D1-1
+Added Pin To Net: NetName=LED_RED_ANODE Pin=R7-2
+Added Net: Name=LED_RED_ANODE

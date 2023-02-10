@@ -1,0 +1,1108 @@
+Added Component: Designator=A1(FRACTUS ANTENNAS FR01-S1-N-0-102)
+Add component (AddParameter): Name = "Antenna Type"; Value = "Chip"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device ID"; Value = "ANT00000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency (Center/Band)"; Value = "2.45GHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency Group"; Value = "UHF (2GHz ~ 3GHz)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency Range"; Value = "2.4GHz ~ 2.5GHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gain"; Value = "1.7dBi"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Ignion"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "NN01-102"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "7mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Chip"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Return Loss"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RF Family/Standard"; Value = "802.15.4, Bluetooth, WiFi"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "2115-NN01-102CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "128-NN01-102"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "2.45GHz Antenna"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VSWR"; Value = "2"; VariantName = "[No Variations]"
+Added Component: Designator=B1(MPD BHAA-3)
+Add component (AddParameter): Name = "Battery Cell Size"; Value = "AA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device ID"; Value = "BCL00006"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "MPD (Memory Protection Devices)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "BHAA-3?"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Cells"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Battery Holder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Style"; Value = "PC Pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "BHAA-3-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "24.5mm Coin Cell (×1)"; VariantName = "[No Variations]"
+Added Component: Designator=B2(BMP390)
+Add component (AddParameter): Name = "Accuracy - Highest (Lowest)"; Value = "±2°C (±3°C)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp390-ds002.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device ID"; Value = "TMP00004"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Features"; Value = "One-Shot, Shutdown Mode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Geometry.Height"; Value = "0.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "BOSCH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "BMP390"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Bosch Sensortec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "BMP390"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "262-BMP390"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMP390?qs=QNEnbhJQKvYQVfvRMgo2YA%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Type"; Value = "I²C/SMBus"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "10-DFN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "IC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resolution"; Value = "16B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Sensing Temperature - Local"; Value = "-40°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Sensing Temperature - Remote"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Sensor Type"; Value = "Digital, Local"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "403-SHT45-AD1B-R3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "1649-SHT45-AD1B-R3TR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Test Condition"; Value = "-10°C ~ 100°C (-40°C ~ 125°C)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "-40°C ~ 125°C Temp Sense"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Supply"; Value = "1.08V ~ 3.6V"; VariantName = "[No Variations]"
+Added Component: Designator=C1(CAP 0805_2012)
+Add component (AddParameter): Name = "Device ID"; Value = "CAP00052"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "C0805C223K5RAC7210"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "399-C0805C223K5RAC7210CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "80-C0805C223K5RACLR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "47µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C2(CAP 0402_1005)
+Add component (AddParameter): Name = "Device ID"; Value = "CAP00001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "C0402C104K4RAC7411"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402 (1005 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "399-C0402C104K4RAC7411CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "80-C0402C104K4R7411"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "0.1µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C3(CAP 0603_1608)
+Add component (AddParameter): Name = "Device ID"; Value = "CAP00050"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "CL10A106MQ8NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "1276-1119-2-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "187-CL10A106MQ8NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "10pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "6.3V"; VariantName = "[No Variations]"
+Added Component: Designator=C4(CAP 0603_1608)
+Add component (AddParameter): Name = "Device ID"; Value = "CAP00050"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "CL10A106MQ8NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "1276-1119-2-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "187-CL10A106MQ8NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "10pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "6.3V"; VariantName = "[No Variations]"
+Added Component: Designator=C5(CAP 0402_1005 RF)
+Add component (AddParameter): Name = "Device ID"; Value = "CAP00027"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "GCM155C71A105ME38D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402 (1005 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "490-18202-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "81-GCM155C71A105ME8D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X7S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "1µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C6(CAP 0402_1005)
+Add component (AddParameter): Name = "Device ID"; Value = "CAP00001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "C0402C104K4RAC7411"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402 (1005 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "399-C0402C104K4RAC7411CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "80-C0402C104K4R7411"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "0.1µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C7(CAP 0603_1608)
+Add component (AddParameter): Name = "Device ID"; Value = "CAP0004F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Walsin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "0603N0R8C500CT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "791-0603N0R8C500CT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "C0G, NP0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±0.25pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "8pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C8(CAP 0603_1608)
+Add component (AddParameter): Name = "Device ID"; Value = "CAP0004F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Walsin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "0603N0R8C500CT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "791-0603N0R8C500CT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "C0G, NP0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±0.25pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "8pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C9(CAP 0402_1005)
+Add component (AddParameter): Name = "Device ID"; Value = "CAP00001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "C0402C104K4RAC7411"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402 (1005 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "399-C0402C104K4RAC7411CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "80-C0402C104K4R7411"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "0.1µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C10(CAP 0402_1005)
+Add component (AddParameter): Name = "Device ID"; Value = "CAP00001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "C0402C104K4RAC7411"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402 (1005 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "399-C0402C104K4RAC7411CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "80-C0402C104K4R7411"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "0.1µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C11(CAP 0402_1005)
+Add component (AddParameter): Name = "Device ID"; Value = "CAP0004E"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Walsin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "0402N9R0B500CT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402 (1005 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "1292-0402N9R0B500CTTR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "791-0402N9R0B500CT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "C0G, NP0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±0.1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "9pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C12(CAP 0402_1005)
+Add component (AddParameter): Name = "Device ID"; Value = "CAP00000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "C0402C101K4GACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402 (1005 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "399-7749-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "80-C0402C101K4G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "C0G, NP0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "100pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C13(CAP 0402_1005)
+Add component (AddParameter): Name = "Device ID"; Value = "CAP0004E"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Walsin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "0402N9R0B500CT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402 (1005 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "1292-0402N9R0B500CTTR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "791-0402N9R0B500CT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "C0G, NP0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±0.1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "9pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C14(CAP 0402_1005)
+Add component (AddParameter): Name = "Device ID"; Value = "CAP00000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "C0402C101K4GACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402 (1005 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "399-7749-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "80-C0402C101K4G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "C0G, NP0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "100pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C15(CAP 0603_1608)
+Add component (AddParameter): Name = "Device ID"; Value = "CAP0004D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Walsin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "0603N0R8C500CT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "791-0603N0R8C500CT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "C0G, NP0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±0.25pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "0.8pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C16(CAP 0402_1005)
+Add component (AddParameter): Name = "Device ID"; Value = "CAP00001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "C0402C104K4RAC7411"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402 (1005 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "399-C0402C104K4RAC7411CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "80-C0402C104K4R7411"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "0.1µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C17(CAP 0402_1005)
+Add component (AddParameter): Name = "Device ID"; Value = "CAP00001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "C0402C104K4RAC7411"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402 (1005 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "399-C0402C104K4RAC7411CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "80-C0402C104K4R7411"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "0.1µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C18(CAP 0402_1005)
+Add component (AddParameter): Name = "Device ID"; Value = "CAP00000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "C0402C101K4GACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402 (1005 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "399-7749-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "80-C0402C101K4G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "C0G, NP0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "100pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C19(CAP 0603_1608)
+Add component (AddParameter): Name = "Device ID"; Value = "CAP00008"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "C0603C154K8RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "399-7862-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "80-C0603C154K8R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "0.15µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C20(CAP 0603_1608 RF)
+Add component (AddParameter): Name = "Device ID"; Value = "CAP00039"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "C0603C104M4RACAUTO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "399-C0603C104M4RACAUTOCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "C0603C104M4RACAUTO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "0.1µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C21(CAP 0603_1608 RF)
+Add component (AddParameter): Name = "Device ID"; Value = "CAP00039"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "C0603C104M4RACAUTO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "399-C0603C104M4RACAUTOCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "C0603C104M4RACAUTO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "0.1µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C22(CAP 0402_1005)
+Add component (AddParameter): Name = "Device ID"; Value = "CAP00051"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "0402N9R0B500CT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402 (1005 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "1276-1482-2-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "187-CL05A475MP5NRNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "4.7pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C23(CAP 0402_1005 RF)
+Add component (AddParameter): Name = "Device ID"; Value = "CAP00028"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "GRT155C71A225KE13D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402 (1005 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "490-16304-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "81-GRT155C71A225KE3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X7S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "2.2µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=D1(LED 0603_1608)
+Add component (AddParameter): Name = "Color"; Value = "Red"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device ID"; Value = "LED0000A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "If - Forward Current"; Value = "100mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Color"; Value = "Colorless"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "150060RS75000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "LED"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "732-4978-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "RED"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vf - Forward Voltage"; Value = "2.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Viewing Angle"; Value = "140°"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wavelength"; Value = "625nm"; VariantName = "[No Variations]"
+Added Component: Designator=IC1(TI SOT-583)
+Add component (AddParameter): Name = "Current - Output"; Value = "2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device ID"; Value = "VRG00007"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency - Switching"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Function"; Value = "Step-Down"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "TPS631000DRLR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Outputs"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 125°C (TJ)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT-583"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "IC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "296-TPS631000DRLRTR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "595-TPS631000DRLR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Synchronous Rectifier"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "Buck Regulator"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Input (Max)"; Value = "5.5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Input (Min)"; Value = "1.6V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Output (Max)"; Value = "5.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Output (Min/Fixed)"; Value = "1.2V"; VariantName = "[No Variations]"
+Added Component: Designator=IC2(MAXIM SOT-23-5)
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current - Output (Max)"; Value = "1.5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Delay Time - OFF"; Value = "2 µs"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Delay Time - ON"; Value = "27 µs"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device ID"; Value = "DCN00002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FET Type"; Value = "P-Channel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Internal Switch(s)"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "LM66100DCKR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT-363"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "IC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ratio - Input:Output"; Value = "1:1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "296-53541-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "595-LM66100DCKR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "Ideal Diode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Supply"; Value = "1.5V ~ 5.5V"; VariantName = "[No Variations]"
+Added Component: Designator=IC3(NORDIC QFN-48)
+Add component (AddParameter): Name = "Current - Receiving"; Value = "5.5mA ~ 10.4mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current - Transmitting"; Value = "5.5mA ~ 15.2mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Data Rate (Max)"; Value = "2Mbps"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device ID"; Value = "SOC00001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency"; Value = "2.4GHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GPIO"; Value = "32"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nordic Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "nRF52832-QFAA-R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Memory Size"; Value = "512kB Flash, 64kB RAM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "QFN-48"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "IC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Output"; Value = "4dBm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Sensitivity"; Value = "-96dBm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "1490-1052-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "1490-1067-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier3"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier3 P/N"; Value = "949-NRF52832-QFAA-R7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "RF SoC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Supply"; Value = "1.7V ~ 3.6V"; VariantName = "[No Variations]"
+Added Component: Designator=IC4(MICROCHIP SOIC-8 150mil Wide)
+Add component (AddParameter): Name = "Clock Frequency"; Value = "40MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device ID"; Value = "MEM00000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Microchip Technology"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "SST25PF040CT-40E/SN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Memory Format"; Value = "FLASH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Memory Interface"; Value = "SPI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Memory Size"; Value = "4Mb (512K x 8)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Memory Type"; Value = "Non-Volatile"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 125°C (TA)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "8-SOIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "IC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "SST25PF040CT-40E/SNCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "579-T25PF040CT-40ESN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "FLASH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "4Mbit Memory"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Supply"; Value = "2.3V ~ 3.6V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Write Cycle Time - Word, Page"; Value = "5ms"; VariantName = "[No Variations]"
+Added Component: Designator=IC5(MICRO CRYSTAL 8-SON)
+Add component (AddParameter): Name = "Current - Timekeeping Max"; Value = "240nA @ 3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Date Format"; Value = "YY-MM-DD-dd"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device ID"; Value = "RTC00001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Features"; Value = "Alarm, Leap Year, RAM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Interface"; Value = "I²C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Micro Crystal AG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "RV-8263-C7-32.768KHZ-20PPM-TA-QC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Memory Size"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "8-SON (3.2x1.5)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "IC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "2195-RV-8263-C7-32.768KHZ-20PPM-TA-QCCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "428-8263C7328K20PTQC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Time Format"; Value = "HH:MM:SS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "Real Time Clock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Supply"; Value = "0.9V ~ 5.5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Supply Battery"; Value = "-"; VariantName = "[No Variations]"
+Added Component: Designator=IC6(SENSIRION SHT45)
+Add component (AddParameter): Name = "Accuracy - Highest (Lowest)"; Value = "±2°C (±3°C)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device ID"; Value = "TMP00003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Features"; Value = "One-Shot, Shutdown Mode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Sensirion AG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "SHT45-AD1B-R3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Type"; Value = "I²C/SMBus"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "4-DFN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "IC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resolution"; Value = "16B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Sensing Temperature - Local"; Value = "-40°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Sensing Temperature - Remote"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Sensor Type"; Value = "Digital, Local"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "403-SHT45-AD1B-R3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "1649-SHT45-AD1B-R3TR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Test Condition"; Value = "-10°C ~ 100°C (-40°C ~ 125°C)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "-40°C ~ 125°C Temp Sense"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Supply"; Value = "1.08V ~ 3.6V"; VariantName = "[No Variations]"
+Added Component: Designator=IC7(MEMSIC MMC5633)
+Add component (AddParameter): Name = "Axis"; Value = "Triple"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Bandwidth"; Value = "1kKz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current - Output (Max)"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current - Supply (Max)"; Value = "0.4µA (Typ)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device ID"; Value = "MAG00002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Features"; Value = "Temperature Compensated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "MEMSIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "MMC5633NJL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 125°C (TA)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Type"; Value = "I²C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "BGA-2x2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "IC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resolution"; Value = "20b"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Sensing Range"; Value = "±3mT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "1267-MMC5633NJLTR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "438-MMC5633NJL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "Hall Effect"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "Magnetoresistive Sensor X, Y, Z Axis"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Supply"; Value = "1.62V ~ 3.6V"; VariantName = "[No Variations]"
+Added Component: Designator=J1(HIROSE MS-156HF(01))
+Add component (AddParameter): Name = "Cable Group"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Style"; Value = "MS-156HF(01)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "Receptacle, Female Socket"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device ID"; Value = "RFC00001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fastening Type"; Value = "Snap-On"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency - Max"; Value = "6GHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Impedance"; Value = "50O"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Hirose Electric Co Ltd"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "MS-156HF(01)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mating Cycles"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Coaxial Switch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "RF Connector"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shield Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "H11669-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "798-MS156HF01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "Coaxial Switch"; VariantName = "[No Variations]"
+Added Component: Designator=J2(J-LINK 6-PIN NEEDLE)
+Add component (AddParameter): Name = "Connector Type"; Value = "Board"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish - Mating"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Type"; Value = "Pogo-Pins"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating (Amps)"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device ID"; Value = "CON00004"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fastening Type"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Color"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material Flammability Rating"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Board Connector"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions Loaded"; Value = "All"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Header"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch - Mating"; Value = "0.050" (1.27mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Style"; Value = "On-Board"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "--"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "6 Pin J-Link Needle"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "-"; VariantName = "[No Variations]"
+Added Component: Designator=L1(NTC 0603_1608)
+Add component (AddParameter): Name = "Current Saturation"; Value = "90mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Resistance"; Value = "1.050O"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device ID"; Value = "IND00005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency - Self Resonant"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "TDK Corporation"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "C2012X5R1C106K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material - Core"; Value = "Ferrite"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Inductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Q @ Freq"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "445-175588-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "810-MLZ1608M100WTD25"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "1.0µH"; VariantName = "[No Variations]"
+Added Component: Designator=L2(IND 0402_1005)
+Add component (AddParameter): Name = "Current Saturation"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Resistance"; Value = "0.460O"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device ID"; Value = "IND00004"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency - Self Resonant"; Value = "8GHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KYOCERA AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "L04023R9BHNTR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material - Core"; Value = "Non-Magnetic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402 (1005 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Inductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Q @ Freq"; Value = "13 @ 450MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "478-4199-2-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "581-L04023R9BHNTR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±0.1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "3.9nH"; VariantName = "[No Variations]"
+Added Component: Designator=R1(RES 0402_1005 RF)
+Add component (AddParameter): Name = "Composition"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device ID"; Value = "RES0003C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "AC0402FR-7W4K7L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402 (1005 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.125W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "603-AC0402FR-7W4K7L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "603-AC0402FR-7W4K7L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "511kO"; VariantName = "[No Variations]"
+Added Component: Designator=R2(RES 0402_1005 RF)
+Add component (AddParameter): Name = "Composition"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device ID"; Value = "RES0003D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "AC0402FR-7W4K7L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402 (1005 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.125W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "603-AC0402FR-7W4K7L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "603-AC0402FR-7W4K7L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "91kO"; VariantName = "[No Variations]"
+Added Component: Designator=R3(RES 0402_1005 RF)
+Add component (AddParameter): Name = "Composition"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device ID"; Value = "RES0003B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "AC0402FR-7W4K7L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402 (1005 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.125W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "603-AC0402FR-7W4K7L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "603-AC0402FR-7W4K7L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "4.7kO"; VariantName = "[No Variations]"
+Added Component: Designator=R4(RES 0402_1005 RF)
+Add component (AddParameter): Name = "Composition"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device ID"; Value = "RES0003B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "AC0402FR-7W4K7L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402 (1005 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.125W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "603-AC0402FR-7W4K7L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "603-AC0402FR-7W4K7L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "4.7kO"; VariantName = "[No Variations]"
+Added Component: Designator=R5(RES 0201_0603)
+Add component (AddParameter): Name = "Composition"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device ID"; Value = "RES0003A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay Dale"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "CRCW020110R0FNED"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0201 (0603 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.050W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "541-10.0ABCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "71-CRCW020110R0FNED"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "33O"; VariantName = "[No Variations]"
+Added Component: Designator=R6(RES 0201_0603)
+Add component (AddParameter): Name = "Composition"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device ID"; Value = "RES0003A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay Dale"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "CRCW020110R0FNED"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0201 (0603 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.050W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "541-10.0ABCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "71-CRCW020110R0FNED"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "33O"; VariantName = "[No Variations]"
+Added Component: Designator=R7(RES 0603_1608 RF)
+Add component (AddParameter): Name = "Composition"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device ID"; Value = "RES00034"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay Dale"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "?CRCW0603820KFKEAC?"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.100W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "?541-5568-1-ND?"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "71-CRCW0603820KFKEAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "60O"; VariantName = "[No Variations]"
+Added Component: Designator=R8(RES 0603_1608 RF)
+Add component (AddParameter): Name = "Composition"; Value = "Thin Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device ID"; Value = "RES0000A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Susumu"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "RG1608P-2493-B-T5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.100W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "RG16P249KBCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "754-RG1608P-2493-BT5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±0.1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "249kO"; VariantName = "[No Variations]"
+Added Component: Designator=RF1(0402_1005 RF)
+Add component (AddParameter): Name = "Device ID"; Value = "RFP00000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "0402"; VariantName = "[No Variations]"
+Added Component: Designator=RF2(0402_1005 RF)
+Add component (AddParameter): Name = "Device ID"; Value = "RFP00000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "0402"; VariantName = "[No Variations]"
+Added Component: Designator=RF3(0402_1005 RF)
+Add component (AddParameter): Name = "Device ID"; Value = "RFP00000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "0402"; VariantName = "[No Variations]"
+Added Component: Designator=RF4(0402_1005 RF)
+Add component (AddParameter): Name = "Device ID"; Value = "RFP00000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "0402"; VariantName = "[No Variations]"
+Added Component: Designator=S1(PANASONIC EVP-AA002K)
+Add component (AddParameter): Name = "Contact Rating @ Voltage"; Value = "0.02A @ 15VDC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device ID"; Value = "BUT00002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "EVP-AA002K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Force"; Value = "100gf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "4-Lead SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "Button"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "P13347SCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "667-EVP-AA002K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Switch Function"; Value = "Off-Mom"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "SPST-NO"; VariantName = "[No Variations]"
+Added Component: Designator=Y1(ECS 320-8-37B)
+Add component (AddParameter): Name = "Device ID"; Value = "XTL00005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ESR"; Value = "50O"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Load Capacitance"; Value = "8pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "ECS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "ECS-320-8-37B-7KM-TR3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Mode"; Value = "Fundamental"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-20°C ~ 70°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "4-SMD, No Lead"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "XTAL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "50-ECS-320-8-37B-7KM-TR3TR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "520-ECS320837B7KMTR3
+729-G43270021"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±7ppm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "32.0000MHz"; VariantName = "[No Variations]"
+Added Component: Designator=Y2(EPSON FC135R)
+Add component (AddParameter): Name = "Device ID"; Value = "XTL00004"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ESR"; Value = "50kO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Load Capacitance"; Value = "9pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "EPSON"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "FC-135R 32.7680KF-AC3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Mode"; Value = "Fundamental"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-20°C ~ 70°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "2-SMD, No Lead"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Type"; Value = "XTAL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1 P/N"; Value = "SER4075TR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2 P/N"; Value = "732-5R32.7680KF-AC3
+729-G43270021"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10ppm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "32.7680kHz"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=ANT Pin=IC3-30
+Added Pin To Net: NetName=ANT Pin=J1-A
+Added Net: Name=ANT
+Added Pin To Net: NetName=BAT_ADC Pin=B1-POS
+Added Pin To Net: NetName=BAT_ADC Pin=C2-2
+Added Pin To Net: NetName=BAT_ADC Pin=C3-2
+Added Pin To Net: NetName=BAT_ADC Pin=IC2-1
+Added Pin To Net: NetName=BAT_ADC Pin=IC2-3
+Added Pin To Net: NetName=BAT_ADC Pin=IC3-4
+Added Net: Name=BAT_ADC
+Added Pin To Net: NetName=DEC1 Pin=C10-1
+Added Pin To Net: NetName=DEC1 Pin=IC3-1
+Added Net: Name=DEC1
+Added Pin To Net: NetName=DEC2 Pin=C14-1
+Added Pin To Net: NetName=DEC2 Pin=IC3-32
+Added Net: Name=DEC2
+Added Pin To Net: NetName=DEC3 Pin=C12-1
+Added Pin To Net: NetName=DEC3 Pin=IC3-33
+Added Net: Name=DEC3
+Added Pin To Net: NetName=DEC4 Pin=C5-2
+Added Pin To Net: NetName=DEC4 Pin=IC3-46
+Added Net: Name=DEC4
+Added Pin To Net: NetName=FLASH_CS Pin=IC3-23
+Added Pin To Net: NetName=FLASH_CS Pin=IC4-1
+Added Net: Name=FLASH_CS
+Added Pin To Net: NetName=FLASH_HOLD Pin=IC3-22
+Added Pin To Net: NetName=FLASH_HOLD Pin=IC4-7
+Added Net: Name=FLASH_HOLD
+Added Pin To Net: NetName=FLASH_WP Pin=IC3-21
+Added Pin To Net: NetName=FLASH_WP Pin=IC4-3
+Added Net: Name=FLASH_WP
+Added Pin To Net: NetName=GND Pin=B1-NEG
+Added Pin To Net: NetName=GND Pin=B2-3
+Added Pin To Net: NetName=GND Pin=B2-5
+Added Pin To Net: NetName=GND Pin=B2-8
+Added Pin To Net: NetName=GND Pin=B2-9
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C9-1
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Pin To Net: NetName=GND Pin=C11-1
+Added Pin To Net: NetName=GND Pin=C12-2
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=GND Pin=C14-2
+Added Pin To Net: NetName=GND Pin=C15-1
+Added Pin To Net: NetName=GND Pin=C16-1
+Added Pin To Net: NetName=GND Pin=C17-1
+Added Pin To Net: NetName=GND Pin=C18-1
+Added Pin To Net: NetName=GND Pin=C20-1
+Added Pin To Net: NetName=GND Pin=C21-1
+Added Pin To Net: NetName=GND Pin=C22-1
+Added Pin To Net: NetName=GND Pin=C23-1
+Added Pin To Net: NetName=GND Pin=IC1-6
+Added Pin To Net: NetName=GND Pin=IC1-7
+Added Pin To Net: NetName=GND Pin=IC2-2
+Added Pin To Net: NetName=GND Pin=IC3-31
+Added Pin To Net: NetName=GND Pin=IC3-45
+Added Pin To Net: NetName=GND Pin=IC3-EXP
+Added Pin To Net: NetName=GND Pin=IC3-EXP
+Added Pin To Net: NetName=GND Pin=IC3-EXP
+Added Pin To Net: NetName=GND Pin=IC3-EXP
+Added Pin To Net: NetName=GND Pin=IC3-EXP
+Added Pin To Net: NetName=GND Pin=IC3-EXP
+Added Pin To Net: NetName=GND Pin=IC3-EXP
+Added Pin To Net: NetName=GND Pin=IC3-EXP
+Added Pin To Net: NetName=GND Pin=IC3-EXP
+Added Pin To Net: NetName=GND Pin=IC3-EXP
+Added Pin To Net: NetName=GND Pin=IC3-EXP
+Added Pin To Net: NetName=GND Pin=IC3-EXP
+Added Pin To Net: NetName=GND Pin=IC3-EXP
+Added Pin To Net: NetName=GND Pin=IC3-EXP
+Added Pin To Net: NetName=GND Pin=IC3-EXP
+Added Pin To Net: NetName=GND Pin=IC3-EXP
+Added Pin To Net: NetName=GND Pin=IC3-EXP
+Added Pin To Net: NetName=GND Pin=IC4-4
+Added Pin To Net: NetName=GND Pin=IC5-2
+Added Pin To Net: NetName=GND Pin=IC6-4
+Added Pin To Net: NetName=GND Pin=IC7-A1
+Added Pin To Net: NetName=GND Pin=J1-G
+Added Pin To Net: NetName=GND Pin=J1-G
+Added Pin To Net: NetName=GND Pin=J2-5
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=GND Pin=RF3-1
+Added Pin To Net: NetName=GND Pin=RF4-1
+Added Pin To Net: NetName=GND Pin=S1-1
+Added Pin To Net: NetName=GND Pin=S1-1
+Added Pin To Net: NetName=GND Pin=Y1-2
+Added Pin To Net: NetName=GND Pin=Y1-4
+Added Net: Name=GND
+Added Pin To Net: NetName=I2C_SCL Pin=B2-2
+Added Pin To Net: NetName=I2C_SCL Pin=IC3-37
+Added Pin To Net: NetName=I2C_SCL Pin=IC5-7
+Added Pin To Net: NetName=I2C_SCL Pin=IC6-2
+Added Pin To Net: NetName=I2C_SCL Pin=IC7-A2
+Added Pin To Net: NetName=I2C_SCL Pin=R4-1
+Added Net: Name=I2C_SCL
+Added Pin To Net: NetName=I2C_SDA Pin=B2-4
+Added Pin To Net: NetName=I2C_SDA Pin=IC3-38
+Added Pin To Net: NetName=I2C_SDA Pin=IC5-8
+Added Pin To Net: NetName=I2C_SDA Pin=IC6-1
+Added Pin To Net: NetName=I2C_SDA Pin=IC7-B2
+Added Pin To Net: NetName=I2C_SDA Pin=R3-1
+Added Net: Name=I2C_SDA
+Added Pin To Net: NetName=LED_RED_CATHODE Pin=D1-2
+Added Pin To Net: NetName=LED_RED_CATHODE Pin=R7-1
+Added Net: Name=LED_RED_CATHODE
+Added Pin To Net: NetName=LED_RED_EN Pin=IC3-10
+Added Pin To Net: NetName=LED_RED_EN Pin=R7-2
+Added Net: Name=LED_RED_EN
+Added Pin To Net: NetName=NetA1_S Pin=A1-S
+Added Pin To Net: NetName=NetA1_S Pin=RF2-2
+Added Net: Name=NetA1_S
+Added Pin To Net: NetName=NetC15_2 Pin=C15-2
+Added Pin To Net: NetName=NetC15_2 Pin=J1-C
+Added Pin To Net: NetName=NetC15_2 Pin=L2-1
+Added Net: Name=NetC15_2
+Added Pin To Net: NetName=NetIC1_2 Pin=IC1-2
+Added Pin To Net: NetName=NetIC1_2 Pin=L1-2
+Added Net: Name=NetIC1_2
+Added Pin To Net: NetName=NetIC1_3 Pin=IC1-3
+Added Pin To Net: NetName=NetIC1_3 Pin=L1-1
+Added Net: Name=NetIC1_3
+Added Pin To Net: NetName=NetIC1_8 Pin=IC1-8
+Added Pin To Net: NetName=NetIC1_8 Pin=R1-1
+Added Pin To Net: NetName=NetIC1_8 Pin=R2-2
+Added Net: Name=NetIC1_8
+Added Pin To Net: NetName=NetJ2_1 Pin=J2-1
+Added Pin To Net: NetName=NetJ2_1 Pin=R5-1
+Added Net: Name=NetJ2_1
+Added Pin To Net: NetName=NetJ2_3 Pin=J2-3
+Added Pin To Net: NetName=NetJ2_3 Pin=R6-1
+Added Net: Name=NetJ2_3
+Added Pin To Net: NetName=NetL2_2 Pin=L2-2
+Added Pin To Net: NetName=NetL2_2 Pin=RF1-1
+Added Pin To Net: NetName=NetL2_2 Pin=RF3-2
+Added Net: Name=NetL2_2
+Added Pin To Net: NetName=NetRF1_2 Pin=RF1-2
+Added Pin To Net: NetName=NetRF1_2 Pin=RF2-1
+Added Pin To Net: NetName=NetRF1_2 Pin=RF4-2
+Added Net: Name=NetRF1_2
+Added Pin To Net: NetName=PB_INT Pin=C19-1
+Added Pin To Net: NetName=PB_INT Pin=IC3-24
+Added Pin To Net: NetName=PB_INT Pin=R6-2
+Added Pin To Net: NetName=PB_INT Pin=R8-1
+Added Pin To Net: NetName=PB_INT Pin=S1-2
+Added Pin To Net: NetName=PB_INT Pin=S1-2
+Added Net: Name=PB_INT
+Added Pin To Net: NetName=RTC_INT Pin=IC3-39
+Added Pin To Net: NetName=RTC_INT Pin=IC5-4
+Added Net: Name=RTC_INT
+Added Pin To Net: NetName=SPI_MISO Pin=IC3-18
+Added Pin To Net: NetName=SPI_MISO Pin=IC4-2
+Added Net: Name=SPI_MISO
+Added Pin To Net: NetName=SPI_MOSI Pin=IC3-17
+Added Pin To Net: NetName=SPI_MOSI Pin=IC4-5
+Added Net: Name=SPI_MOSI
+Added Pin To Net: NetName=SPI_SCL Pin=IC3-16
+Added Pin To Net: NetName=SPI_SCL Pin=IC4-6
+Added Net: Name=SPI_SCL
+Added Pin To Net: NetName=SWCLK Pin=IC3-25
+Added Pin To Net: NetName=SWCLK Pin=J2-4
+Added Net: Name=SWCLK
+Added Pin To Net: NetName=SWDIO Pin=IC3-26
+Added Pin To Net: NetName=SWDIO Pin=J2-2
+Added Net: Name=SWDIO
+Added Pin To Net: NetName=V_DIODE_OUT Pin=C4-2
+Added Pin To Net: NetName=V_DIODE_OUT Pin=IC1-4
+Added Pin To Net: NetName=V_DIODE_OUT Pin=IC1-5
+Added Pin To Net: NetName=V_DIODE_OUT Pin=IC2-5
+Added Net: Name=V_DIODE_OUT
+Added Pin To Net: NetName=V_REG_3V Pin=B2-1
+Added Pin To Net: NetName=V_REG_3V Pin=B2-6
+Added Pin To Net: NetName=V_REG_3V Pin=B2-10
+Added Pin To Net: NetName=V_REG_3V Pin=C1-2
+Added Pin To Net: NetName=V_REG_3V Pin=C6-2
+Added Pin To Net: NetName=V_REG_3V Pin=C9-2
+Added Pin To Net: NetName=V_REG_3V Pin=C16-2
+Added Pin To Net: NetName=V_REG_3V Pin=C17-2
+Added Pin To Net: NetName=V_REG_3V Pin=C18-2
+Added Pin To Net: NetName=V_REG_3V Pin=C19-2
+Added Pin To Net: NetName=V_REG_3V Pin=C20-2
+Added Pin To Net: NetName=V_REG_3V Pin=C21-2
+Added Pin To Net: NetName=V_REG_3V Pin=C22-2
+Added Pin To Net: NetName=V_REG_3V Pin=C23-2
+Added Pin To Net: NetName=V_REG_3V Pin=D1-1
+Added Pin To Net: NetName=V_REG_3V Pin=IC1-1
+Added Pin To Net: NetName=V_REG_3V Pin=IC3-13
+Added Pin To Net: NetName=V_REG_3V Pin=IC3-36
+Added Pin To Net: NetName=V_REG_3V Pin=IC3-48
+Added Pin To Net: NetName=V_REG_3V Pin=IC4-8
+Added Pin To Net: NetName=V_REG_3V Pin=IC5-5
+Added Pin To Net: NetName=V_REG_3V Pin=IC6-3
+Added Pin To Net: NetName=V_REG_3V Pin=IC7-B1
+Added Pin To Net: NetName=V_REG_3V Pin=R1-2
+Added Pin To Net: NetName=V_REG_3V Pin=R3-2
+Added Pin To Net: NetName=V_REG_3V Pin=R4-2
+Added Pin To Net: NetName=V_REG_3V Pin=R5-2
+Added Pin To Net: NetName=V_REG_3V Pin=R8-2
+Added Net: Name=V_REG_3V
+Added Pin To Net: NetName=XC1 Pin=C8-2
+Added Pin To Net: NetName=XC1 Pin=IC3-34
+Added Pin To Net: NetName=XC1 Pin=Y1-3
+Added Net: Name=XC1
+Added Pin To Net: NetName=XC2 Pin=C7-2
+Added Pin To Net: NetName=XC2 Pin=IC3-35
+Added Pin To Net: NetName=XC2 Pin=Y1-1
+Added Net: Name=XC2
+Added Pin To Net: NetName=XTAL_32K_1 Pin=C11-2
+Added Pin To Net: NetName=XTAL_32K_1 Pin=IC3-2
+Added Net: Name=XTAL_32K_1
+Added Pin To Net: NetName=XTAL_32K_2 Pin=C13-2
+Added Pin To Net: NetName=XTAL_32K_2 Pin=IC3-3
+Added Pin To Net: NetName=XTAL_32K_2 Pin=Y2-2
+Added Net: Name=XTAL_32K_2
+Added Class: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator

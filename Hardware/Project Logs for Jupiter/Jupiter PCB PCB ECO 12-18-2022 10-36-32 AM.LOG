@@ -1,0 +1,18 @@
+Change Component Footprint: Designator=R12 Old Footprint=0603_1608 RF New Footprint=RES 0603_1608 RF
+Change Component Kind : Designator=R12 Old Kind=Standard (No BOM) New Kind=Standard
+Change component parameters: Designator = "R12" ("R12"); Footprint = "0603_1608 RF"; UniqueID = "\KPPPSEDL\LJLDGAJL\SWZJHXYC\GNRHSKLT\JKBBBVCJ" ("\KPPPSEDL\LJLDGAJL\SWZJHXYC\GNRHSKLT\JKBBBVCJ")
+Change component parameters (AddParameter): Name = "Composition"; Value = "Thick Film"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Device ID"; Value = "RES0003E"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Vishay Dale"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer P/N"; Value = "?CRCW0603820KFKEAC?"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 155°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "0.100W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier1 P/N"; Value = "?541-5568-1-ND?"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier2 P/N"; Value = "71-CRCW0603820KFKEAC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "1MO"; VariantName = "[No Variations]"

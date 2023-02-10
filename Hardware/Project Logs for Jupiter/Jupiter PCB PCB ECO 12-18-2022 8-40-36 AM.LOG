@@ -1,0 +1,18 @@
+Change Component Footprint: Designator=C6 Old Footprint=CAP 0402_1005 New Footprint=CAP 0603_1608
+Change Component Comment : Designator=C6 Old Comment=0.1µF New Comment=4.7uF
+Change component parameters: Designator = "C6" ("C6"); Footprint = "CAP 0402_1005"; UniqueID = "\KPPPSEDL\LJLDGAJL\SWZJHXYC\FTIRJCOB\PLWWJFIM" ("\KPPPSEDL\LJLDGAJL\SWZJHXYC\FTIRJCOB\PLWWJFIM")
+Change component parameters (AddParameter): Name = "Device ID"; Value = "CAP00044"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer P/N"; Value = "CL10A475KQ8NNNC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier1 P/N"; Value = "399-7891-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier2"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier2 P/N"; Value = "80-C0603C273K3R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "4.7uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "25V"; VariantName = "[No Variations]"
