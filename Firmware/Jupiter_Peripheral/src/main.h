@@ -1,4 +1,4 @@
-#define LOGGER_ENABLED 0
+#define LOGGER_ENABLED 1
 
 #ifndef MAIN_H
 #define MAIN_H

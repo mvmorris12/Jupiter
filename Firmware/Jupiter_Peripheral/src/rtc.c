@@ -29,7 +29,7 @@ void rtc_read_time(void){
     twi_read(TWI_ADDR_RTC, RTC_REG_SECONDS, time_data, sizeof(time_data));
     sprintf(date_str, "%02x:%02x:%02x %02x-%02x-20%x", 
 	    time_data[2], time_data[1], time_data[0], time_data[5], time_data[3], time_data[6]);
-    NRF_LOG_INFO("%s\t%x", date_str);
+    NRF_LOG_INFO("%s", date_str);
 }
 
 

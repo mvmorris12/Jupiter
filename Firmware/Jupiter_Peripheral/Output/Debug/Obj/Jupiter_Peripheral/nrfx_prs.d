@@ -61,6 +61,7 @@ Output/Debug/Obj/Jupiter_Peripheral/nrfx_prs.o: \
  ../nRF5_SDK_17/components/libraries/util/app_util.h \
  ../nRF5_SDK_17/components/libraries/util/sdk_macros.h \
  ../nRF5_SDK_17/components/libraries/experimental_section_vars/nrf_section.h \
+ ../nRF5_SDK_17/components/libraries/strerror/nrf_strerror.h \
  ../nRF5_SDK_17/components/libraries/log/src/nrf_log_internal.h \
  ../nRF5_SDK_17/components/softdevice/s140/headers/nrf_error.h \
  ../nRF5_SDK_17/components/libraries/log/nrf_log_instance.h \

@@ -67,12 +67,20 @@ Output/Debug/Obj/Jupiter_Peripheral/ble_conn_params.o: \
  ../nRF5_SDK_17/components/libraries/log/nrf_log_types.h \
  ../nRF5_SDK_17/components/libraries/sortlist/nrf_sortlist.h \
  ../nRF5_SDK_17/components/libraries/log/nrf_log.h \
+ ../nRF5_SDK_17/components/libraries/strerror/nrf_strerror.h \
  ../nRF5_SDK_17/components/libraries/log/src/nrf_log_internal.h \
  ../nRF5_SDK_17/components/softdevice/s140/headers/nrf_error.h \
  ../nRF5_SDK_17/components/libraries/log/nrf_log_types.h \
  ../nRF5_SDK_17/components/libraries/log/nrf_log_ctrl.h \
  ../nRF5_SDK_17/components/libraries/log/src/nrf_log_ctrl_internal.h \
  ../nRF5_SDK_17/components/libraries/log/nrf_log_backend_interface.h \
+ ../nRF5_SDK_17/components/libraries/memobj/nrf_memobj.h \
+ ../nRF5_SDK_17/components/libraries/balloc/nrf_balloc.h \
+ ../nRF5_SDK_17/components/libraries/util/app_util_platform.h \
+ ../nRF5_SDK_17/components/softdevice/s140/headers/nrf_soc.h \
+ ../nRF5_SDK_17/components/softdevice/s140/headers/nrf_error_soc.h \
+ ../nRF5_SDK_17/components/softdevice/s140/headers/nrf_nvic.h \
+ ../nRF5_SDK_17/components/libraries/util/app_error.h \
  ../nRF5_SDK_17/components/libraries/log/nrf_log_default_backends.h \
  ../nRF5_SDK_17/modules/nrfx/hal/nrf_gpio.h \
  ../nRF5_SDK_17/modules/nrfx/nrfx.h \
@@ -84,11 +92,6 @@ Output/Debug/Obj/Jupiter_Peripheral/ble_conn_params.o: \
  ../nRF5_SDK_17/integration/nrfx/legacy/apply_old_config.h \
  ../nRF5_SDK_17/modules/nrfx/soc/nrfx_irqs.h \
  ../nRF5_SDK_17/modules/nrfx/soc/nrfx_irqs_nrf52832.h \
- ../nRF5_SDK_17/components/libraries/util/app_util_platform.h \
- ../nRF5_SDK_17/components/softdevice/s140/headers/nrf_soc.h \
- ../nRF5_SDK_17/components/softdevice/s140/headers/nrf_error_soc.h \
- ../nRF5_SDK_17/components/softdevice/s140/headers/nrf_nvic.h \
- ../nRF5_SDK_17/components/libraries/util/app_error.h \
  ../nRF5_SDK_17/modules/nrfx/soc/nrfx_coredep.h \
  ../nRF5_SDK_17/modules/nrfx/soc/nrfx_atomic.h \
  ../nRF5_SDK_17/components/libraries/util/sdk_resources.h \

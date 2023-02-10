@@ -68,6 +68,7 @@ Output/Debug/Obj/Jupiter_Peripheral/nrf_drv_clock.o: \
  ../nRF5_SDK_17/modules/nrfx/hal/nrf_wdt.h \
  ../nRF5_SDK_17/components/libraries/log/nrf_log.h \
  ../nRF5_SDK_17/components/libraries/experimental_section_vars/nrf_section.h \
+ ../nRF5_SDK_17/components/libraries/strerror/nrf_strerror.h \
  ../nRF5_SDK_17/components/libraries/log/src/nrf_log_internal.h \
  ../nRF5_SDK_17/components/softdevice/s140/headers/nrf_error.h \
  ../nRF5_SDK_17/components/libraries/log/nrf_log_instance.h \

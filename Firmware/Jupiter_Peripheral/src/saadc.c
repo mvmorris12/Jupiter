@@ -49,9 +49,7 @@ void battery_get_percent(void){
     while (saadc_sample_count < SAMPLES_IN_BUFFER){
         ret_code_t err_code = nrfx_saadc_sample_convert(SAADC_CHANNEL, &saadc_sample);
         APP_ERROR_CHECK(err_code);
-
-        //NRF_LOG_INFO("Sample %d: %i", saadc_sample_count++, sample);
-
+        //NRF_LOG_INFO("Sample %d: %i", saadc_sample_count++, saadc_sample);
         //NRF_LOG_FLUSH();
 	saadc_sample_count++;
         nrf_delay_ms(5);
@@ -63,5 +61,5 @@ void battery_get_percent(void){
     saadc_avg /= SAMPLES_IN_BUFFER;
     //saadc_avg -= 55;
     sensor_data.battery.voltage = saadc_avg;
-    NRF_LOG_INFO("   Bat_V:%03X", sensor_data.battery.voltage);
+    NRF_LOG_INFO("   Bat_V: %03X", sensor_data.battery.voltage);
 }

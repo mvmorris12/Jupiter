@@ -51,12 +51,13 @@ Output/Debug/Obj/Jupiter_Peripheral/ble_advertising.o: \
  ../nRF5_SDK_17/components/libraries/log/nrf_log.h \
  ../nRF5_SDK_17/components/libraries/experimental_section_vars/nrf_section.h \
  ../nRF5_SDK_17/components/libraries/util/nordic_common.h \
+ ../nRF5_SDK_17/components/libraries/strerror/nrf_strerror.h \
+ ../nRF5_SDK_17/components/libraries/util/sdk_errors.h \
  ../nRF5_SDK_17/components/libraries/log/src/nrf_log_internal.h \
  ../nRF5_SDK_17/components/libraries/util/app_util.h \
  ../nRF5_SDK_17/components/libraries/log/nrf_log_instance.h \
  ../nRF5_SDK_17/components/libraries/log/nrf_log_types.h \
  ../nRF5_SDK_17/components/libraries/log/nrf_log_types.h \
- ../nRF5_SDK_17/components/libraries/util/sdk_errors.h \
  ../nRF5_SDK_17/components/softdevice/common/nrf_sdh_ble.h \
  ../nRF5_SDK_17/components/libraries/experimental_section_vars/nrf_section_iter.h \
  ../nRF5_SDK_17/components/libraries/experimental_section_vars/nrf_section.h \

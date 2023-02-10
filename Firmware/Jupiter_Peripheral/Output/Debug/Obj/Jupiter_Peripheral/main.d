@@ -56,16 +56,22 @@ Output/Debug/Obj/Jupiter_Peripheral/main.o: \
  ../nRF5_SDK_17/components/ble/common/ble_conn_params.h \
  ../nRF5_SDK_17/components/ble/common/ble_srv_common.h \
  ../nRF5_SDK_17/components/libraries/util/sdk_errors.h \
- ../nRF5_SDK_17/components/ble/ble_advertising/ble_advertising.h \
- ../nRF5_SDK_17/components/softdevice/s140/headers/nrf_error.h \
- ../nRF5_SDK_17/components/softdevice/s140/headers/ble_gattc.h \
  ../nRF5_SDK_17/components/softdevice/common/nrf_sdh.h \
  ../nRF5_SDK_17/components/libraries/experimental_section_vars/nrf_section_iter.h \
  ../nRF5_SDK_17/components/libraries/experimental_section_vars/nrf_section.h \
  ../nRF5_SDK_17/components/libraries/util/nrf_assert.h \
  ../nRF5_SDK_17/components/softdevice/common/nrf_sdh_ble.h \
- ../nRF5_SDK_17/components/boards/boards.h \
- ../nRF5_SDK_17/modules/nrfx/hal/nrf_gpio.h \
+ ../nRF5_SDK_17/components/libraries/timer/app_timer.h \
+ ../nRF5_SDK_17/components/libraries/log/nrf_log_instance.h \
+ ../nRF5_SDK_17/components/libraries/experimental_section_vars/nrf_section.h \
+ ../nRF5_SDK_17/components/libraries/log/nrf_log_types.h \
+ ../nRF5_SDK_17/components/libraries/sortlist/nrf_sortlist.h \
+ ../nRF5_SDK_17/components/ble/ble_services/ble_lbs/ble_lbs.h \
+ ../nRF5_SDK_17/components/ble/nrf_ble_gatt/nrf_ble_gatt.h \
+ ../nRF5_SDK_17/components/ble/nrf_ble_qwr/nrf_ble_qwr.h \
+ ../nRF5_SDK_17/components/libraries/pwr_mgmt/nrf_pwr_mgmt.h \
+ ../nRF5_SDK_17/integration/nrfx/legacy/nrf_drv_gpiote.h \
+ ../nRF5_SDK_17/modules/nrfx/drivers/include/nrfx_gpiote.h \
  ../nRF5_SDK_17/modules/nrfx/nrfx.h \
  ../nRF5_SDK_17/integration/nrfx/nrfx_config.h \
  ../nRF5_SDK_17/modules/nrfx/drivers/nrfx_common.h \
@@ -86,44 +92,44 @@ Output/Debug/Obj/Jupiter_Peripheral/main.o: \
  ../nRF5_SDK_17/components/softdevice/s140/headers/nrf_sd_def.h \
  ../nRF5_SDK_17/components/softdevice/s140/headers/nrf_soc.h \
  ../nRF5_SDK_17/modules/nrfx/drivers/nrfx_errors.h \
- ../nRF5_SDK_17/components/boards/pca10040.h \
- ../nRF5_SDK_17/components/libraries/timer/app_timer.h \
- ../nRF5_SDK_17/components/libraries/log/nrf_log_instance.h \
- ../nRF5_SDK_17/components/libraries/experimental_section_vars/nrf_section.h \
- ../nRF5_SDK_17/components/libraries/log/nrf_log_types.h \
- ../nRF5_SDK_17/components/libraries/sortlist/nrf_sortlist.h \
- ../nRF5_SDK_17/components/ble/ble_services/ble_lbs/ble_lbs.h \
- ../nRF5_SDK_17/components/ble/nrf_ble_gatt/nrf_ble_gatt.h \
- ../nRF5_SDK_17/components/ble/nrf_ble_qwr/nrf_ble_qwr.h \
- ../nRF5_SDK_17/components/libraries/pwr_mgmt/nrf_pwr_mgmt.h \
+ ../nRF5_SDK_17/modules/nrfx/hal/nrf_gpiote.h \
+ ../nRF5_SDK_17/modules/nrfx/hal/nrf_gpio.h \
+ ../nRF5_SDK_17/integration/nrfx/legacy/nrf_drv_timer.h \
+ ../nRF5_SDK_17/modules/nrfx/drivers/include/nrfx_timer.h \
+ ../nRF5_SDK_17/modules/nrfx/hal/nrf_timer.h \
  ../nRF5_SDK_17/components/libraries/log/nrf_log.h \
+ ../nRF5_SDK_17/components/libraries/strerror/nrf_strerror.h \
  ../nRF5_SDK_17/components/libraries/log/src/nrf_log_internal.h \
+ ../nRF5_SDK_17/components/softdevice/s140/headers/nrf_error.h \
  ../nRF5_SDK_17/components/libraries/log/nrf_log_types.h \
  ../nRF5_SDK_17/components/libraries/log/nrf_log_ctrl.h \
  ../nRF5_SDK_17/components/libraries/log/src/nrf_log_ctrl_internal.h \
  ../nRF5_SDK_17/components/libraries/log/nrf_log_backend_interface.h \
+ ../nRF5_SDK_17/components/libraries/memobj/nrf_memobj.h \
+ C\:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.60a/include/stdlib.h \
+ ../nRF5_SDK_17/components/libraries/balloc/nrf_balloc.h \
  ../nRF5_SDK_17/components/libraries/log/nrf_log_default_backends.h \
- ../nRF5_SDK_17/components/libraries/delay/nrf_delay.h \
- ../nRF5_SDK_17/integration/nrfx/legacy/nrf_drv_gpiote.h \
- ../nRF5_SDK_17/modules/nrfx/drivers/include/nrfx_gpiote.h \
- ../nRF5_SDK_17/modules/nrfx/hal/nrf_gpiote.h \
- ../nRF5_SDK_17/modules/nrfx/hal/nrf_gpio.h \
- ../nRF5_SDK_17/integration/nrfx/legacy/nrf_drv_saadc.h \
- ../nRF5_SDK_17/modules/nrfx/drivers/include/nrfx_saadc.h \
- ../nRF5_SDK_17/modules/nrfx/hal/nrf_saadc.h \
  C\:\Projects\Jupiter\Firmware\Jupiter_Peripheral\src\main.h \
+ C\:\Projects\Jupiter\Firmware\Jupiter_Peripheral\src\gpiote.h \
+ C\:\Projects\Jupiter\Firmware\Jupiter_Peripheral\src\getdatetime.h \
+ C\:\Projects\Jupiter\Firmware\Jupiter_Peripheral\src\getdatetime_var.h \
  C\:\Projects\Jupiter\Firmware\Jupiter_Peripheral\src\i2c.h \
+ ../nRF5_SDK_17/components/boards/boards.h \
+ ../nRF5_SDK_17/modules/nrfx/hal/nrf_gpio.h \
+ ../nRF5_SDK_17/components/boards/pca10040.h \
  ../nRF5_SDK_17/integration/nrfx/legacy/nrf_drv_twi.h \
  ../nRF5_SDK_17/modules/nrfx/drivers/include/nrfx_twim.h \
  ../nRF5_SDK_17/modules/nrfx/drivers/include/nrfx_twi_twim.h \
  ../nRF5_SDK_17/modules/nrfx/hal/nrf_twim.h \
  ../nRF5_SDK_17/modules/nrfx/drivers/include/nrfx_twi.h \
  ../nRF5_SDK_17/modules/nrfx/hal/nrf_twi.h \
- C\:\Projects\Jupiter\Firmware\Jupiter_Peripheral\src\gpiote.h \
+ ../nRF5_SDK_17/components/libraries/delay/nrf_delay.h \
  C\:\Projects\Jupiter\Firmware\Jupiter_Peripheral\src\led.h \
- C\:\Projects\Jupiter\Firmware\Jupiter_Peripheral\src\thermometer_barometer.h \
- C\:\Projects\Jupiter\Firmware\Jupiter_Peripheral\src\magnetometer.h \
- C\:\Projects\Jupiter\Firmware\Jupiter_Peripheral\src\hygrometer.h \
  C\:\Projects\Jupiter\Firmware\Jupiter_Peripheral\src\rtc.h \
  C\:\Projects\Jupiter\Firmware\Jupiter_Peripheral\src\saadc.h \
- C\:\Projects\Jupiter\Firmware\Jupiter_Peripheral\src\getdatetime.h
+ ../nRF5_SDK_17/integration/nrfx/legacy/nrf_drv_saadc.h \
+ ../nRF5_SDK_17/modules/nrfx/drivers/include/nrfx_saadc.h \
+ ../nRF5_SDK_17/modules/nrfx/hal/nrf_saadc.h \
+ C\:\Projects\Jupiter\Firmware\Jupiter_Peripheral\src\hygrometer.h \
+ C\:\Projects\Jupiter\Firmware\Jupiter_Peripheral\src\magnetometer.h \
+ C\:\Projects\Jupiter\Firmware\Jupiter_Peripheral\src\thermometer_barometer.h
