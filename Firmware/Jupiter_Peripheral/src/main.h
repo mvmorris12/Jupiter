@@ -8,7 +8,9 @@
 struct Sensor_Data{
     struct Thermometer_Barometer{
 	uint32_t temperature;
+	float ftemperature;
 	uint32_t pressure;
+	float fpressure;
     } thermometer_barometer;
     struct Magnetometer{
 	uint32_t x;
@@ -22,9 +24,15 @@ struct Sensor_Data{
     struct Battery{
 	uint16_t voltage;
     } battery;
-    //struct RTC {
-	
-    //}
+    struct RTC{
+        uint8_t year;
+        uint8_t month;
+        uint8_t day;
+        uint8_t hour;
+        uint8_t minute;
+        uint8_t second;
+        uint32_t epoch_s;
+    } rtc;
 };
 
 extern struct Sensor_Data sensor_data;

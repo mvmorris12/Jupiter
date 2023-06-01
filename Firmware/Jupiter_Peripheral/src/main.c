@@ -43,7 +43,7 @@
 #define APP_BLE_OBSERVER_PRIO           3                                       /**< Application's BLE observer priority. You shouldn't need to modify this value. */
 #define APP_BLE_CONN_CFG_TAG            1                                       /**< A tag identifying the SoftDevice BLE configuration. */
 
-#define APP_ADV_INTERVAL                6400                                    /**< The advertising interval (in units of 0.625 ms; this value corresponds to 40 ms). */
+#define APP_ADV_INTERVAL                1000                                    /**< The advertising interval (in units of 0.625 ms; this value corresponds to 40 ms). */
 #define APP_ADV_DURATION                BLE_GAP_ADV_TIMEOUT_GENERAL_UNLIMITED   /**< The advertising time-out (in units of seconds). When set to 0, we will never time out. */
 
 
@@ -56,12 +56,13 @@
 #define NEXT_CONN_PARAMS_UPDATE_DELAY   APP_TIMER_TICKS(5000)                    /**< Time between each call to sd_ble_gap_conn_param_update after the first call (5 seconds). */
 #define MAX_CONN_PARAMS_UPDATE_COUNT    3                                        /**< Number of attempts before giving up the connection parameter negotiation. */
 
-#define DEAD_BEEF                       0xDEADBEEF                               /**< Value used as error code on stack dump, can be used to identify stack location on stack unwind. */
+//#define DEAD_BEEF                       0xDEADBEEF                               /**< Value used as error code on stack dump, can be used to identify stack location on stack unwind. */
 
 
 uint8_t measurement_count = 0;
 
 struct Sensor_Data sensor_data;
+struct Calib_Data calib_data;
 
 bool take_measurement_flag = false;
 
@@ -127,25 +128,27 @@ static void advertising_init(void)
     ble_advdata_t advdata;
     ble_advdata_t srdata;
     ble_advdata_manuf_data_t manuf_data;
-    ble_uuid_t adv_uuids[] = {};
-    uint8_t data[22]                      = {0xDE, 0xAD, 0xBE, 0xEF};
-    manuf_data.company_identifier       = 0x0059;
+    //ble_uuid_t adv_uuids[] = {};
+    uint8_t data[20]                      = {0xDE, 0xAD, 0xBE, 0xAA, 0x00, 0x01, 0x01, 0x03};
+    //manuf_data.company_identifier       = 0x0059;
     manuf_data.data.p_data              = data;
-    manuf_data.data.size                = 35;
+    manuf_data.data.size                = 31;
     advdata.p_manuf_specific_data       = &manuf_data;
 
     // Build and set advertising data.
     memset(&advdata, 0, sizeof(advdata));
 
+
     advdata.name_type          = BLE_ADVDATA_FULL_NAME;
+    //advdata.short_name_len     = 2;
     advdata.include_appearance = true;
     advdata.flags              = BLE_GAP_ADV_FLAGS_LE_ONLY_GENERAL_DISC_MODE;
 
     memset(&srdata, 0, sizeof(srdata));
-    srdata.uuids_complete.uuid_cnt = sizeof(adv_uuids) / sizeof(adv_uuids[0]);
-    srdata.uuids_complete.p_uuids  = adv_uuids;
+    //srdata.uuids_complete.uuid_cnt = sizeof(adv_uuids) / sizeof(adv_uuids[0]);
+    //srdata.uuids_complete.p_uuids  = adv_uuids;
     
-    m_adv_data.adv_data.len = 22;
+    m_adv_data.adv_data.len = 32;
 
     err_code = ble_advdata_encode(&advdata, m_adv_data.adv_data.p_data, &m_adv_data.adv_data.len);
     APP_ERROR_CHECK(err_code);
@@ -162,7 +165,7 @@ static void advertising_init(void)
     adv_params.duration        = APP_ADV_DURATION;
     adv_params.properties.type = BLE_GAP_ADV_TYPE_NONCONNECTABLE_NONSCANNABLE_UNDIRECTED;
     adv_params.p_peer_addr     = NULL;
-    adv_params.filter_policy   = BLE_GAP_ADV_FP_ANY;
+    //adv_params.filter_policy   = BLE_GAP_ADV_FP_ANY;
     adv_params.interval        = APP_ADV_INTERVAL;
 
     err_code = sd_ble_gap_adv_set_configure(&m_adv_handle, &m_adv_data, &adv_params);
@@ -179,6 +182,9 @@ static void advertising_start(void)
     ret_code_t           err_code;
 
     err_code = sd_ble_gap_adv_start(m_adv_handle, APP_BLE_CONN_CFG_TAG);
+    APP_ERROR_CHECK(err_code);
+
+    err_code = sd_ble_gap_tx_power_set(1, m_adv_handle, 4);
     APP_ERROR_CHECK(err_code);
 
     //bsp_board_led_on(ADVERTISING_LED);
@@ -275,27 +281,77 @@ void set_ble_mac(void){
 
 
 void sensor_data_init(void){
-    sensor_data.battery.voltage = 0;
-    sensor_data.hygrometer.humidity = 0;
-    sensor_data.hygrometer.temperature = 0;
-    sensor_data.magnetometer.x = 0;
-    sensor_data.magnetometer.y = 0;
-    sensor_data.magnetometer.z = 0;
-    sensor_data.thermometer_barometer.pressure = 0;
-    sensor_data.thermometer_barometer.temperature = 0;
+    sensor_data.battery.voltage = 0x0;
+    sensor_data.hygrometer.humidity = 0x0;
+    sensor_data.hygrometer.temperature = 0x0;
+    sensor_data.magnetometer.x = 0x0;
+    sensor_data.magnetometer.y = 0x0;
+    sensor_data.magnetometer.z = 0x0;
+    sensor_data.thermometer_barometer.pressure = 0x0;
+    sensor_data.thermometer_barometer.temperature = 0x0;
+    sensor_data.thermometer_barometer.ftemperature = 0.0;
+    sensor_data.rtc.year = 0x0;
+    sensor_data.rtc.month = 0x0;
+    sensor_data.rtc.day = 0x0;
+    sensor_data.rtc.hour = 0x0;
+    sensor_data.rtc.minute = 0x0;
+    sensor_data.rtc.second = 0x0;
+    sensor_data.rtc.epoch_s = 0x0;
+    calib_data.par_t1 = 0x0;
+    calib_data.par_t2 = 0x0;
+    calib_data.par_t3 = 0x0;
+    calib_data.t_lin = 0x0;
+    calib_data.fpar_t1 = 0.0;
+    calib_data.fpar_t2 = 0.0;
+    calib_data.fpar_t3 = 0.0;
+    calib_data.par_p1 = 0x0;
+    calib_data.par_p2 = 0x0;
+    calib_data.par_p3 = 0x0;
+    calib_data.par_p4 = 0x0;
+    calib_data.par_p5 = 0x0;
+    calib_data.par_p6 = 0x0;
+    calib_data.par_p7 = 0x0;
+    calib_data.par_p8 = 0x0;
+    calib_data.par_p9 = 0x0;
+    calib_data.par_p10 = 0x0;
+    calib_data.par_p11 = 0x0;
+    calib_data.fpar_p1 = 0.0;
+    calib_data.fpar_p2 = 0.0;
+    calib_data.fpar_p3 = 0.0;
+    calib_data.fpar_p4 = 0.0;
+    calib_data.fpar_p5 = 0.0;
+    calib_data.fpar_p6 = 0.0;
+    calib_data.fpar_p7 = 0.0;
+    calib_data.fpar_p8 = 0.0;
+    calib_data.fpar_p9 = 0.0;
+    calib_data.fpar_p10 = 0.0;
+    calib_data.fpar_p11 = 0.0;
 }
 
 
 void update_ble_adv_packet(void){
     ble_advdata_t advdata;    
-    m_adv_data.adv_data.p_data[8] = 0xDE;
-    m_adv_data.adv_data.p_data[9] = 0xAD;
-    m_adv_data.adv_data.p_data[10] = 0xBE;
-    m_adv_data.adv_data.p_data[11] = 0xEF;
-    m_adv_data.adv_data.p_data[12] = 0xAB;
+    //m_adv_data.adv_data.p_data[0]  = 0x4A; // 'J' 
+    //m_adv_data.adv_data.p_data[1]  = 0x01; // '01'
+    m_adv_data.adv_data.p_data[0]  = (sensor_data.rtc.epoch_s>>24)&0xFF;
+    m_adv_data.adv_data.p_data[1]  = (sensor_data.rtc.epoch_s>>16)&0xFF;
+    m_adv_data.adv_data.p_data[2]  = (sensor_data.rtc.epoch_s>>8)&0xFF;
+    m_adv_data.adv_data.p_data[3]  = (sensor_data.rtc.epoch_s>>0)&0xFF;
+    m_adv_data.adv_data.p_data[4]  = (sensor_data.thermometer_barometer.temperature>>24)&0xFF;  // temperature [31:24]
+    m_adv_data.adv_data.p_data[5]  = (sensor_data.thermometer_barometer.temperature>>16)&0xFF;  // temperature [23:16]
+    m_adv_data.adv_data.p_data[6]  = (sensor_data.thermometer_barometer.temperature>>8)&0xFF;   // temperature [15:8]
+    m_adv_data.adv_data.p_data[7]  = (sensor_data.thermometer_barometer.temperature>>0)&0xFF;   // temperature [7:0]
+    m_adv_data.adv_data.p_data[8]  = (sensor_data.thermometer_barometer.pressure>>24)&0xFF;     // pressure [31:24]
+    m_adv_data.adv_data.p_data[9]  = (sensor_data.thermometer_barometer.pressure>>16)&0xFF;     // pressure [23:16]
+    m_adv_data.adv_data.p_data[10] = (sensor_data.thermometer_barometer.pressure>>8)&0xFF;      // pressure [15:8]
+    m_adv_data.adv_data.p_data[11] = (sensor_data.thermometer_barometer.pressure>>8)&0xFF;      // pressure [7:0]
+    m_adv_data.adv_data.p_data[12] = (sensor_data.hygrometer.humidity>>8)&0xFF;                 // humidity [16:8]
+    m_adv_data.adv_data.p_data[13] = (sensor_data.hygrometer.humidity>>0)&0xFF;                 // humidity [8:0]
+    m_adv_data.adv_data.p_data[14] = (sensor_data.battery.voltage>>8)&0xFF;                     // battery voltage [16:8]
+    m_adv_data.adv_data.p_data[15] = (sensor_data.battery.voltage)&0xFF;                        // battery voltage [8:0]
 
-    ////ret_code_t err_code = sd_ble_gap_adv_(NULL, 0, m_adv_data.adv_data.p_data, sizeof(m_adv_data.adv_data.p_data));
-    //ret_code_t err_code = ble_advdata_encode(&m_adv_data, m_adv_data.adv_data.p_data, );
+    //ret_code_t err_code = sd_ble_gap_adv_data_set(NULL, 0, m_adv_data.adv_data.p_data, sizeof(m_adv_data.adv_data.p_data));
+    //ret_code_t err_code = ble_advdata_encode(&m_adv_data, m_adv_data.adv_data.p_data, sizeof(m_adv_data.adv_data.p_data));
     //APP_ERROR_CHECK(err_code);
 }
 
@@ -305,16 +361,15 @@ void take_measurements(void){
     rtc_set_minute_alarm();
     rtc_read_time();
     thermometer_barometer_get_measurement();
-    magnetometer_get_measurement();
+    //magnetometer_get_measurement();
     hygrometer_get_measurement();
     if (++measurement_count >= 4){
-        battery_get_percent();
         measurement_count = 0;
     }
     update_ble_adv_packet();
 }
 
-
+/* if this hangs on twi fx, run the twi scanner to reset */
 void main(void){
     sensor_data_init();
     log_init();
@@ -322,12 +377,14 @@ void main(void){
     power_management_init();
 
     led_init();
+    led_flash(LED_PIN_RED, 125, 1);
     twi_init();
     saadc_init();
     gpiote_init();
     twi_check_sensors();
     rtc_init();
     thermometer_barometer_init();
+    thermometer_barometer_read_calibration();
     ble_stack_init();
     set_ble_mac();
     advertising_init();

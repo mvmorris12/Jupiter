@@ -3,6 +3,8 @@
 #include "getdatetime_var.h"
 
 
+extern struct Sensor_Data sensor_data;
+
 void rtc_init(void){
     rtc_write_date();
     rtc_set_minute_alarm();
@@ -27,9 +29,34 @@ void rtc_read_time(void){
     uint8_t time_data[7];
     char date_str[20];
     twi_read(TWI_ADDR_RTC, RTC_REG_SECONDS, time_data, sizeof(time_data));
-    sprintf(date_str, "%02x:%02x:%02x %02x-%02x-20%x", 
-	    time_data[2], time_data[1], time_data[0], time_data[5], time_data[3], time_data[6]);
-    NRF_LOG_INFO("%s", date_str);
+    //sprintf(date_str, "%02x:%02x:%02x %02x-%02x-20%x", 
+	   // time_data[2], time_data[1], time_data[0], time_data[5], time_data[3], time_data[6]);
+    sensor_data.rtc.year = time_data[6];
+    sensor_data.rtc.month = time_data[5];
+    sensor_data.rtc.day = time_data[3];
+    sensor_data.rtc.hour = time_data[2];
+    sensor_data.rtc.minute = time_data[1];
+    sensor_data.rtc.second = time_data[0];
+    sensor_data.rtc.epoch_s =
+        (((sensor_data.rtc.year/16*10 + (sensor_data.rtc.year%16) + 30)) * 31556926) +
+        (((sensor_data.rtc.month/16*10 + (sensor_data.rtc.month%16) - 1)) * 2629743) +
+        (((sensor_data.rtc.day/16*10 + (sensor_data.rtc.day%16) - 1)) * 86400) +
+        (((sensor_data.rtc.hour/16*10 + (sensor_data.rtc.hour%16) - 1)) * 3600) +
+        (((sensor_data.rtc.minute/16*10 + (sensor_data.rtc.minute%16)) * 60));
+
+        //(sensor_data.rtc.year/16*10 + (sensor_data.rtc.year%16));
+       
+        
+
+    NRF_LOG_INFO("%02x:%02x:%02x %02x-%02x-20%x", 
+        sensor_data.rtc.hour,
+        sensor_data.rtc.minute,
+        sensor_data.rtc.second,
+        sensor_data.rtc.month,
+        sensor_data.rtc.day,
+        sensor_data.rtc.year);
+    //NRF_LOG_INFO("%d", sensor_data.rtc.epoch_s);
+    //NRF_LOG_INFO("%X", sensor_data.rtc.epoch_s);
 }
 
 

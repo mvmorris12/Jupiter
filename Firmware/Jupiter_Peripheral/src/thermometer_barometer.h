@@ -52,7 +52,44 @@
 #define TB_REG_NVM_PAR_P11	    0x45
 #define TB_REG_CMD		    0x7E
 
+struct Calib_Data{
+    // temperature variables
+    uint16_t par_t1;
+    uint16_t par_t2;
+    int8_t  par_t3;
+    float t_lin;
+    float fpar_t1;
+    float fpar_t2;
+    float fpar_t3;
+    // pressure variables
+    int16_t par_p1;
+    int16_t par_p2;
+    int8_t par_p3;
+    int8_t par_p4;
+    uint16_t par_p5;
+    uint16_t par_p6;
+    int8_t par_p7;
+    int8_t par_p8;
+    int16_t par_p9;
+    int8_t par_p10;
+    int8_t par_p11;
+    float fpar_p1;
+    float fpar_p2;
+    float fpar_p3;
+    float fpar_p4;
+    float fpar_p5;
+    float fpar_p6;
+    float fpar_p7;
+    float fpar_p8;
+    float fpar_p9;
+    float fpar_p10;
+    float fpar_p11;
+};
+
 void thermometer_barometer_init(void);
 void thermometer_barometer_take_measurement(void);
 void thermometer_barometer_read_measurement(void);
 void thermometer_barometer_get_measurement(void);
+void thermometer_barometer_read_calibration(void);
+float thermometer_barometer_compensate_temperature(uint32_t uncomp_temp);
+float thermometer_barometer_compensate_pressure(uint32_t uncomp_temp);
