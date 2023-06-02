@@ -37,16 +37,12 @@ void rtc_read_time(void){
     sensor_data.rtc.hour = time_data[2];
     sensor_data.rtc.minute = time_data[1];
     sensor_data.rtc.second = time_data[0];
-    sensor_data.rtc.epoch_s =
-        (((sensor_data.rtc.year/16*10 + (sensor_data.rtc.year%16) + 30)) * 31556926) +
-        (((sensor_data.rtc.month/16*10 + (sensor_data.rtc.month%16) - 1)) * 2629743) +
-        (((sensor_data.rtc.day/16*10 + (sensor_data.rtc.day%16) - 1)) * 86400) +
-        (((sensor_data.rtc.hour/16*10 + (sensor_data.rtc.hour%16) - 1)) * 3600) +
-        (((sensor_data.rtc.minute/16*10 + (sensor_data.rtc.minute%16)) * 60));
-
-        //(sensor_data.rtc.year/16*10 + (sensor_data.rtc.year%16));
-       
-        
+    //sensor_data.rtc.epoch_s =
+    //    (((sensor_data.rtc.year/16*10 + (sensor_data.rtc.year%16) + 30)) * 31556926) +
+    //    (((sensor_data.rtc.month/16*10 + (sensor_data.rtc.month%16) - 1)) * 2629743) +
+    //    (((sensor_data.rtc.day/16*10 + (sensor_data.rtc.day%16) - 1)) * 86400) +
+    //    (((sensor_data.rtc.hour/16*10 + (sensor_data.rtc.hour%16) - 1)) * 3600) +
+    //    (((sensor_data.rtc.minute/16*10 + (sensor_data.rtc.minute%16)) * 60));
 
     NRF_LOG_INFO("%02x:%02x:%02x %02x-%02x-20%x", 
         sensor_data.rtc.hour,

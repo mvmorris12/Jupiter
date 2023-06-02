@@ -56,6 +56,7 @@
 #include "nrf_sdh_ble.h"
 #include "ble_advdata.h"
 #include "app_timer.h"
+#include "nrf_delay.h"
 #include "nrf_pwr_mgmt.h"
 
 #include "nrf_log.h"
@@ -65,10 +66,10 @@
 
 #define APP_BLE_CONN_CFG_TAG            1                                  /**< A tag identifying the SoftDevice BLE configuration. */
 
-#define NON_CONNECTABLE_ADV_INTERVAL    MSEC_TO_UNITS(6400, UNIT_0_625_MS)  /**< The advertising interval for non-connectable advertisement (100 ms). This value can vary between 100ms to 10.24s). */
+#define NON_CONNECTABLE_ADV_INTERVAL    MSEC_TO_UNITS(1000, UNIT_0_625_MS)  /**< The advertising interval for non-connectable advertisement (100 ms). This value can vary between 100ms to 10.24s). */
 
 #define APP_BEACON_INFO_LENGTH          0x17                               /**< Total length of information advertised by the Beacon. */
-#define APP_ADV_DATA_LENGTH             0x15                               /**< Length of manufacturer specific data in the advertisement. */
+#define APP_ADV_DATA_LENGTH             0x30                               /**< Length of manufacturer specific data in the advertisement. */
 #define APP_DEVICE_TYPE                 0x02                               /**< 0x02 refers to Beacon. */
 #define APP_MEASURED_RSSI               0xC3                               /**< The Beacon's measured RSSI at 1 meter distance in dBm. */
 #define APP_COMPANY_IDENTIFIER          0x0059                             /**< Company identifier for Nordic Semiconductor ASA. as per www.bluetooth.org. */
@@ -286,6 +287,60 @@ static void idle_state_handle(void)
 }
 
 
+void print_ble_mac(void){
+    char InfoPacket[80];
+    // Get actual BLE address in case it is different from hardware register BLE address
+    ble_gap_addr_t device_addr;
+    sd_ble_gap_addr_get(&device_addr);
+    NRF_LOG_INFO("Bluetooth MAC: %02X:%02X:%02X:%02X:%02X:%02X",
+                    device_addr.addr[5], 
+                    device_addr.addr[4], 
+                    device_addr.addr[3], 
+                    device_addr.addr[2], 
+                    device_addr.addr[1], 
+                    device_addr.addr[0]);
+}
+
+uint32_t count = 0;
+void update_packet(void){
+    ble_advdata_t advdata;
+    m_adv_data.adv_data.p_data[0] = 0xDE;
+    m_adv_data.adv_data.p_data[1] = 0xAD;
+    m_adv_data.adv_data.p_data[2] = 0xBE;
+    m_adv_data.adv_data.p_data[3] = 0xEF;
+    m_adv_data.adv_data.p_data[4] = 0x11;
+    m_adv_data.adv_data.p_data[5] = 0x22;
+    m_adv_data.adv_data.p_data[6] = 0x33;
+    m_adv_data.adv_data.p_data[7] = 0x44;
+    m_adv_data.adv_data.p_data[8] = 0x55;
+    m_adv_data.adv_data.p_data[9] = 0x66;
+    m_adv_data.adv_data.p_data[10] = 0x77;
+    m_adv_data.adv_data.p_data[11] = 0x88;
+    m_adv_data.adv_data.p_data[12] = 0x99;
+    m_adv_data.adv_data.p_data[13] = 0x00;
+    m_adv_data.adv_data.p_data[14] = 0xAA;
+    m_adv_data.adv_data.p_data[15] = 0xBB;
+    m_adv_data.adv_data.p_data[16] = 0xCC;
+    m_adv_data.adv_data.p_data[17] = 0xDD;
+    m_adv_data.adv_data.p_data[18] = 0xEE;
+    m_adv_data.adv_data.p_data[19] = 0xFF;
+    m_adv_data.adv_data.p_data[20] = 0x11;
+    m_adv_data.adv_data.p_data[21] = 0x22;
+    m_adv_data.adv_data.p_data[22] = 0x33;
+    m_adv_data.adv_data.p_data[23] = 0x44;
+    m_adv_data.adv_data.p_data[24] = 0x55;
+    m_adv_data.adv_data.p_data[25] = 0x66;
+    m_adv_data.adv_data.p_data[26] = 0x77;
+    m_adv_data.adv_data.p_data[27] = 0x77;
+    m_adv_data.adv_data.p_data[28] = 0x77;
+    m_adv_data.adv_data.p_data[29] = 0x77;
+    m_adv_data.adv_data.p_data[30] = 0x77;
+    m_adv_data.adv_data.p_data[31] = 0x77;
+    m_adv_data.adv_data.p_data[32] = count;
+    NRF_LOG_INFO("count updated: %d", count++);
+    
+}
+
 /**
  * @brief Function for application main entry.
  */
@@ -297,6 +352,7 @@ int main(void)
     leds_init();
     power_management_init();
     ble_stack_init();
+    print_ble_mac();
     advertising_init();
 
     // Start execution.
@@ -307,6 +363,8 @@ int main(void)
     for (;; )
     {
         idle_state_handle();
+        nrf_delay_ms(1000);
+        update_packet();
     }
 }
 

@@ -17,7 +17,7 @@ function updatetime()
 	var mon		   = d.getMonth() + 1;
 	var yr 		   = d.getFullYear() - 2000;
 	var text_write = (text_sec  + '\n' 
-					+ text_min  + min  + '\n'
+					+ text_min  + (min+1)  + '\n'  
 					+ text_hr   + hr   + '\n'
 					+ text_day  + day  + '\n'
 					+ text_date + date + '\n'

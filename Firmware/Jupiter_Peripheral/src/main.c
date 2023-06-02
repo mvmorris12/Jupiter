@@ -43,7 +43,7 @@
 #define APP_BLE_OBSERVER_PRIO           3                                       /**< Application's BLE observer priority. You shouldn't need to modify this value. */
 #define APP_BLE_CONN_CFG_TAG            1                                       /**< A tag identifying the SoftDevice BLE configuration. */
 
-#define APP_ADV_INTERVAL                1000                                    /**< The advertising interval (in units of 0.625 ms; this value corresponds to 40 ms). */
+#define APP_ADV_INTERVAL                MSEC_TO_UNITS(1000, UNIT_0_625_MS)                                    /**< The advertising interval (in units of 0.625 ms; this value corresponds to 40 ms). */
 #define APP_ADV_DURATION                BLE_GAP_ADV_TIMEOUT_GENERAL_UNLIMITED   /**< The advertising time-out (in units of seconds). When set to 0, we will never time out. */
 
 
@@ -55,6 +55,18 @@
 #define FIRST_CONN_PARAMS_UPDATE_DELAY  APP_TIMER_TICKS(20000)                   /**< Time from initiating event (connect or start of notification) to first time sd_ble_gap_conn_param_update is called (15 seconds). */
 #define NEXT_CONN_PARAMS_UPDATE_DELAY   APP_TIMER_TICKS(5000)                    /**< Time between each call to sd_ble_gap_conn_param_update after the first call (5 seconds). */
 #define MAX_CONN_PARAMS_UPDATE_COUNT    3                                        /**< Number of attempts before giving up the connection parameter negotiation. */
+#define APP_BEACON_INFO_LENGTH          0x17                               /**< Total length of information advertised by the Beacon. */
+#define APP_ADV_DATA_LENGTH             0x30                               /**< Length of manufacturer specific data in the advertisement. */
+#define APP_DEVICE_TYPE                 0x02                               /**< 0x02 refers to Beacon. */
+#define APP_MEASURED_RSSI               0xC3                               /**< The Beacon's measured RSSI at 1 meter distance in dBm. */
+#define APP_COMPANY_IDENTIFIER          0x0059                             /**< Company identifier for Nordic Semiconductor ASA. as per www.bluetooth.org. */
+#define APP_MAJOR_VALUE                 0x01, 0x02                         /**< Major value used to identify Beacons. */
+#define APP_MINOR_VALUE                 0x03, 0x04                         /**< Minor value used to identify Beacons. */
+#define APP_BEACON_UUID                 0x01, 0x12, 0x23, 0x34, \
+                                        0x45, 0x56, 0x67, 0x78, \
+                                        0x89, 0x9a, 0xab, 0xbc, \
+                                        0xcd, 0xde, 0xef, 0xf0            /**< Proprietary UUID for Beacon. */
+
 
 //#define DEAD_BEEF                       0xDEADBEEF                               /**< Value used as error code on stack dump, can be used to identify stack location on stack unwind. */
 
@@ -67,7 +79,7 @@ struct Calib_Data calib_data;
 bool take_measurement_flag = false;
 
 static uint16_t m_conn_handle = BLE_CONN_HANDLE_INVALID;                         /**< Handle of the current connection. */
-
+static ble_gap_adv_params_t m_adv_params; 
 static uint8_t m_adv_handle = BLE_GAP_ADV_SET_HANDLE_NOT_SET;                    /**< Advertising handle used to identify an advertising set. */
 static uint8_t m_enc_advdata[BLE_GAP_ADV_SET_DATA_SIZE_MAX];                     /**< Buffer for storing an encoded advertising set. */
 static uint8_t m_enc_scan_response_data[BLE_GAP_ADV_SET_DATA_SIZE_MAX];          /**< Buffer for storing an encoded scan data. */
@@ -82,11 +94,25 @@ static ble_gap_adv_data_t m_adv_data =
     },
     .scan_rsp_data =
     {
-        .p_data = m_enc_scan_response_data,
-        .len    = BLE_GAP_ADV_SET_DATA_SIZE_MAX
+        .p_data = NULL,
+        .len    = 0
 
     }
 };
+
+static uint8_t m_beacon_info[APP_BEACON_INFO_LENGTH] =                    /**< Information advertised by the Beacon. */
+{
+    APP_DEVICE_TYPE,     // Manufacturer specific information. Specifies the device type in this
+                         // implementation.
+    APP_ADV_DATA_LENGTH, // Manufacturer specific information. Specifies the length of the
+                         // manufacturer specific data in this implementation.
+    APP_BEACON_UUID,     // 128 bit UUID value.
+    APP_MAJOR_VALUE,     // Major arbitrary value that can be used to distinguish between Beacons.
+    APP_MINOR_VALUE,     // Minor arbitrary value that can be used to distinguish between Beacons.
+    APP_MEASURED_RSSI    // Manufacturer specific information. The Beacon's measured TX power in
+                         // this implementation.
+};
+
 
 
 static void gap_params_init(void)
@@ -124,51 +150,36 @@ static void gap_params_init(void)
 
 static void advertising_init(void)
 {
-    ret_code_t    err_code;
+    uint32_t      err_code;
     ble_advdata_t advdata;
-    ble_advdata_t srdata;
-    ble_advdata_manuf_data_t manuf_data;
-    //ble_uuid_t adv_uuids[] = {};
-    uint8_t data[20]                      = {0xDE, 0xAD, 0xBE, 0xAA, 0x00, 0x01, 0x01, 0x03};
-    //manuf_data.company_identifier       = 0x0059;
-    manuf_data.data.p_data              = data;
-    manuf_data.data.size                = 31;
-    advdata.p_manuf_specific_data       = &manuf_data;
+    uint8_t       flags = BLE_GAP_ADV_FLAG_BR_EDR_NOT_SUPPORTED;
+
+    ble_advdata_manuf_data_t manuf_specific_data;
+
+    manuf_specific_data.company_identifier = APP_COMPANY_IDENTIFIER;
+    manuf_specific_data.data.p_data = (uint8_t *) m_beacon_info;
+    manuf_specific_data.data.size   = APP_BEACON_INFO_LENGTH;
 
     // Build and set advertising data.
     memset(&advdata, 0, sizeof(advdata));
 
+    advdata.name_type             = BLE_ADVDATA_NO_NAME;
+    advdata.flags                 = flags;
+    advdata.p_manuf_specific_data = &manuf_specific_data;
 
-    advdata.name_type          = BLE_ADVDATA_FULL_NAME;
-    //advdata.short_name_len     = 2;
-    advdata.include_appearance = true;
-    advdata.flags              = BLE_GAP_ADV_FLAGS_LE_ONLY_GENERAL_DISC_MODE;
+    // Initialize advertising parameters (used when starting advertising).
+    memset(&m_adv_params, 0, sizeof(m_adv_params));
 
-    memset(&srdata, 0, sizeof(srdata));
-    //srdata.uuids_complete.uuid_cnt = sizeof(adv_uuids) / sizeof(adv_uuids[0]);
-    //srdata.uuids_complete.p_uuids  = adv_uuids;
-    
-    m_adv_data.adv_data.len = 32;
+    m_adv_params.properties.type = BLE_GAP_ADV_TYPE_NONCONNECTABLE_NONSCANNABLE_UNDIRECTED;
+    m_adv_params.p_peer_addr     = NULL;    // Undirected advertisement.
+    m_adv_params.filter_policy   = BLE_GAP_ADV_FP_ANY;
+    m_adv_params.interval        = APP_ADV_INTERVAL;
+    m_adv_params.duration        = 0;       // Never time out.
 
     err_code = ble_advdata_encode(&advdata, m_adv_data.adv_data.p_data, &m_adv_data.adv_data.len);
     APP_ERROR_CHECK(err_code);
 
-    err_code = ble_advdata_encode(&srdata, m_adv_data.scan_rsp_data.p_data, &m_adv_data.scan_rsp_data.len);
-    APP_ERROR_CHECK(err_code);
-
-    ble_gap_adv_params_t adv_params;
-
-    // Set advertising parameters.
-    memset(&adv_params, 0, sizeof(adv_params));
-
-    adv_params.primary_phy     = BLE_GAP_PHY_1MBPS;
-    adv_params.duration        = APP_ADV_DURATION;
-    adv_params.properties.type = BLE_GAP_ADV_TYPE_NONCONNECTABLE_NONSCANNABLE_UNDIRECTED;
-    adv_params.p_peer_addr     = NULL;
-    //adv_params.filter_policy   = BLE_GAP_ADV_FP_ANY;
-    adv_params.interval        = APP_ADV_INTERVAL;
-
-    err_code = sd_ble_gap_adv_set_configure(&m_adv_handle, &m_adv_data, &adv_params);
+    err_code = sd_ble_gap_adv_set_configure(&m_adv_handle, &m_adv_data, &m_adv_params);
     APP_ERROR_CHECK(err_code);
 }
 
@@ -296,7 +307,7 @@ void sensor_data_init(void){
     sensor_data.rtc.hour = 0x0;
     sensor_data.rtc.minute = 0x0;
     sensor_data.rtc.second = 0x0;
-    sensor_data.rtc.epoch_s = 0x0;
+    //sensor_data.rtc.epoch_s = 0x0;
     calib_data.par_t1 = 0x0;
     calib_data.par_t2 = 0x0;
     calib_data.par_t3 = 0x0;
@@ -331,24 +342,26 @@ void sensor_data_init(void){
 
 void update_ble_adv_packet(void){
     ble_advdata_t advdata;    
-    //m_adv_data.adv_data.p_data[0]  = 0x4A; // 'J' 
-    //m_adv_data.adv_data.p_data[1]  = 0x01; // '01'
-    m_adv_data.adv_data.p_data[0]  = (sensor_data.rtc.epoch_s>>24)&0xFF;
-    m_adv_data.adv_data.p_data[1]  = (sensor_data.rtc.epoch_s>>16)&0xFF;
-    m_adv_data.adv_data.p_data[2]  = (sensor_data.rtc.epoch_s>>8)&0xFF;
-    m_adv_data.adv_data.p_data[3]  = (sensor_data.rtc.epoch_s>>0)&0xFF;
-    m_adv_data.adv_data.p_data[4]  = (sensor_data.thermometer_barometer.temperature>>24)&0xFF;  // temperature [31:24]
-    m_adv_data.adv_data.p_data[5]  = (sensor_data.thermometer_barometer.temperature>>16)&0xFF;  // temperature [23:16]
-    m_adv_data.adv_data.p_data[6]  = (sensor_data.thermometer_barometer.temperature>>8)&0xFF;   // temperature [15:8]
-    m_adv_data.adv_data.p_data[7]  = (sensor_data.thermometer_barometer.temperature>>0)&0xFF;   // temperature [7:0]
-    m_adv_data.adv_data.p_data[8]  = (sensor_data.thermometer_barometer.pressure>>24)&0xFF;     // pressure [31:24]
-    m_adv_data.adv_data.p_data[9]  = (sensor_data.thermometer_barometer.pressure>>16)&0xFF;     // pressure [23:16]
-    m_adv_data.adv_data.p_data[10] = (sensor_data.thermometer_barometer.pressure>>8)&0xFF;      // pressure [15:8]
-    m_adv_data.adv_data.p_data[11] = (sensor_data.thermometer_barometer.pressure>>8)&0xFF;      // pressure [7:0]
-    m_adv_data.adv_data.p_data[12] = (sensor_data.hygrometer.humidity>>8)&0xFF;                 // humidity [16:8]
-    m_adv_data.adv_data.p_data[13] = (sensor_data.hygrometer.humidity>>0)&0xFF;                 // humidity [8:0]
-    m_adv_data.adv_data.p_data[14] = (sensor_data.battery.voltage>>8)&0xFF;                     // battery voltage [16:8]
-    m_adv_data.adv_data.p_data[15] = (sensor_data.battery.voltage)&0xFF;                        // battery voltage [8:0]
+    m_adv_data.adv_data.p_data[0]  = 0x4A; // 'J' 
+    m_adv_data.adv_data.p_data[1]  = 0x01; // '01'
+    m_adv_data.adv_data.p_data[2]  = (sensor_data.rtc.year);
+    m_adv_data.adv_data.p_data[3]  = (sensor_data.rtc.month);
+    m_adv_data.adv_data.p_data[4]  = (sensor_data.rtc.day);
+    m_adv_data.adv_data.p_data[5]  = (sensor_data.rtc.hour);
+    m_adv_data.adv_data.p_data[6]  = (sensor_data.rtc.minute);
+    m_adv_data.adv_data.p_data[7]  = (sensor_data.rtc.second);
+    m_adv_data.adv_data.p_data[8]  = (sensor_data.thermometer_barometer.temperature>>24)&0xFF;  // temperature [31:24]
+    m_adv_data.adv_data.p_data[9]  = (sensor_data.thermometer_barometer.temperature>>16)&0xFF;  // temperature [23:16]
+    m_adv_data.adv_data.p_data[10] = (sensor_data.thermometer_barometer.temperature>>8)&0xFF;   // temperature [15:8]
+    m_adv_data.adv_data.p_data[11] = (sensor_data.thermometer_barometer.temperature>>0)&0xFF;   // temperature [7:0]
+    m_adv_data.adv_data.p_data[12] = (sensor_data.thermometer_barometer.pressure>>24)&0xFF;     // pressure [31:24]
+    m_adv_data.adv_data.p_data[13] = (sensor_data.thermometer_barometer.pressure>>16)&0xFF;     // pressure [23:16]
+    m_adv_data.adv_data.p_data[14] = (sensor_data.thermometer_barometer.pressure>>8)&0xFF;      // pressure [15:8]
+    m_adv_data.adv_data.p_data[15] = (sensor_data.thermometer_barometer.pressure>>0)&0xFF;      // pressure [7:0]
+    m_adv_data.adv_data.p_data[16] = (sensor_data.hygrometer.humidity>>8)&0xFF;                 // humidity [16:8]
+    m_adv_data.adv_data.p_data[17] = (sensor_data.hygrometer.humidity>>0)&0xFF;                 // humidity [8:0]
+    m_adv_data.adv_data.p_data[18] = (sensor_data.battery.voltage>>8)&0xFF;                     // battery voltage [16:8]
+    m_adv_data.adv_data.p_data[19] = (sensor_data.battery.voltage)&0xFF;                        // battery voltage [8:0]
 
     //ret_code_t err_code = sd_ble_gap_adv_data_set(NULL, 0, m_adv_data.adv_data.p_data, sizeof(m_adv_data.adv_data.p_data));
     //ret_code_t err_code = ble_advdata_encode(&m_adv_data, m_adv_data.adv_data.p_data, sizeof(m_adv_data.adv_data.p_data));
@@ -365,6 +378,7 @@ void take_measurements(void){
     hygrometer_get_measurement();
     if (++measurement_count >= 4){
         measurement_count = 0;
+        battery_get_percent();
     }
     update_ble_adv_packet();
 }

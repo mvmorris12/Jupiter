@@ -82,6 +82,7 @@ Output/Debug/Obj/ble_app_beacon_pca10040_s132/main.o: \
  ../../../../../../components/libraries/experimental_section_vars/nrf_section.h \
  ../../../../../../components/libraries/log/nrf_log_types.h \
  ../../../../../../components/libraries/sortlist/nrf_sortlist.h \
+ ../../../../../../components/libraries/delay/nrf_delay.h \
  ../../../../../../components/libraries/pwr_mgmt/nrf_pwr_mgmt.h \
  ../../../../../../components/libraries/log/nrf_log.h \
  ../../../../../../components/libraries/strerror/nrf_strerror.h \

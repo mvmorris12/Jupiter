@@ -31,7 +31,7 @@ struct Sensor_Data{
         uint8_t hour;
         uint8_t minute;
         uint8_t second;
-        uint32_t epoch_s;
+        //uint32_t epoch_s;
     } rtc;
 };
 

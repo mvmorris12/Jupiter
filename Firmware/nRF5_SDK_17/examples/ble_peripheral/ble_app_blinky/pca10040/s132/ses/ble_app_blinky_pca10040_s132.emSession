@@ -48,7 +48,8 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="12" y="155" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="166" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="34" y="229" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="10" path="../../../main.c" selected="1" top="201" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="93" useTextEdit="1" openedFrom="C:/Projects/Jupiter/Firmware/nRF5_SDK_17/examples/ble_peripheral/ble_app_blinky/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/ble/ble_services/ble_lbs/ble_lbs.h" selected="0" top="99" codecName="Default"/>
  </Files>
  <ARMCrossStudioWindow activeProject="ble_app_blinky_pca10040_s132" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
 </session>
